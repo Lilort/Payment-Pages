@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Успешно — Оплата принята</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{
+      display:flex;align-items:center;justify-content:center;padding:24px;
+      background:#f8fafc;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; color:#0f172a
+    }
+    .wrap{max-width:720px;width:100%;background:white;border-radius:12px;padding:36px;text-align:center;box-shadow:0 8px 24px rgba(2,6,23,0.08)}
+    h1{font-size:28px;margin:0 0 8px 0;display:flex;align-items:center;justify-content:center;gap:12px}
+    .tick{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:999px;background:#ecfdf5;border:1px solid #bbf7d0}
+    p{color:#334155;margin:12px 0 0}
+    .bot{display:inline-block;margin-top:18px;padding:10px 16px;border-radius:10px;background:#0ea5a3;color:white;text-decoration:none;font-weight:600}
+    a.bot:active{transform:translateY(1px)}
+    .small{margin-top:14px;color:#64748b;font-size:13px}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="suc">
+    <h1 id="suc"><span class="tick" aria-hidden="true">✓</span> Успешно</h1>
+    <p>Ваш платёж прошёл успешно.<br>Можете продолжить работу в боте <strong>@ysvpn_bot</strong>.</p>
+    <a class="bot" href="https://t.me/ysvpn_bot" rel="noopener noreferrer" target="_blank">Перейти в бот</a>
+    <p class="small">Если у вас возникли вопросы — напишите в поддержку.</p>
+  </main>
+</body>
+</html>
